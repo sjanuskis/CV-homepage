@@ -160,14 +160,67 @@ body{
 
 }
 
-.languages .language1{
+.languages .language{
 	font-size: 18px;
-	padding-bottom: 40px;
 	padding-top: 20px;
 }
 
-.languages .language2{
-	font-size: 18px;
-	padding-bottom: 60px;
-	padding-top: 20px;
+.languages .language .outterBorder{
+	width: 100%;
+	background: #b5b5b5;
+	height: 10px;
+	margin: 10px 0;
+	border-radius: 10px;
+	margin-top: 20px;
 }
+
+.languages .language .outterBorder .innerBorder{
+	width: 50%;
+	height: 10px;
+	background: #008c7d;
+	z-index: 1;
+	border-radius: 10px;
+}
+
+.languages .languageLast{
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.languages .languageLast .outterBorder{
+	width: 100%;
+	background: #b5b5b5;
+	height: 10px;
+	margin: 10px 0;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.languages .languageLast .outterBorder .innerBorder{
+	width: 50%;
+	height: 10px;
+	background: #008c7d;
+	z-index: 1;
+	border-radius: 10px;
+}
+
+/*.languages .language2{
+	font-size: 18px;
+}
+
+.languages .language2 .outterBorder{
+	width: 100%;
+	background: #b5b5b5;
+	height: 10px;
+	margin: 10px 0;
+	border-radius: 10px;
+}
+
+.languages .language2 .outterBorder .innerBorder{
+	width: 50%;
+	height: 10px;
+	background: #008c7d;
+	z-index: 1;
+	border-radius: 10px;
+}*/
