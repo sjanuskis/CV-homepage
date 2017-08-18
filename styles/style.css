@@ -26,14 +26,17 @@ body{
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: relative;
+	margin-top: 10px;
 }
 
 .name{
-	padding-left: 15px;
+	margin-left: 15px;
 	position: absolute;
 	bottom: 20px;
 	font-size: 28px;
-	color: #565a5d;
+	color: #008c7d;
+	font-weight: bold;
+	text-shadow: 1px -1px #ffffff;
 }
 
 .personalInfo ul{
@@ -273,6 +276,11 @@ footer{
 
 footer p{
 	padding: 18px 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff; 
 }
 
 @media screen and (max-width: 600px){
